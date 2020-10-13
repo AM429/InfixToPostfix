@@ -1,0 +1,8 @@
+Main.a1::C:/Users/polit/Desktop/stack/Main.c
+StackTracer.a1::C:/Users/polit/Desktop/stack/StackTracer.c
+Validation.a1::C:/Users/polit/Desktop/stack/Validation.c
+parser.a1::C:/Users/polit/Desktop/stack/parser.c
+stack.a1::C:/Users/polit/Desktop/stack/stack.c
+cat.a1::C:/Users/polit/Desktop/stack/tmp/cat.c
+main.a1::C:/Users/polit/Desktop/stack/tmp/main.c
+test.a1::C:/Users/polit/Desktop/stack/tmp/test.c

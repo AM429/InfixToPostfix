@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3672359696">
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/polit/Desktop/stack/stack.h:17:5" call-funcname="isEmpty" call-argnr="1" file="C:/Users/polit/Desktop/stack/stack.c" line="28" col="8" my-id="C:/Users/polit/Desktop/stack/stack.h:19:6" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/stack.h:17:5" my-argnr="1" my-argname="s" file="C:/Users/polit/Desktop/stack/stack.c" line="22" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/stack.h:16:6" my-argnr="1" my-argname="s" file="C:/Users/polit/Desktop/stack/stack.c" line="37" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/stack.h:15:6" my-argnr="1" my-argname="s" file="C:/Users/polit/Desktop/stack/stack.c" line="43" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/stack.h:17:5" my-argnr="1" my-argname="s" file="C:/Users/polit/Desktop/stack/stack.c" line="22" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/stack.h:16:6" my-argnr="1" my-argname="s" file="C:/Users/polit/Desktop/stack/stack.c" line="37" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="initialize" lineNumber="13"/>
+    <functiondecl functionName="isEmpty" lineNumber="21"/>
+    <functiondecl functionName="top" lineNumber="27"/>
+    <functiondecl functionName="pop" lineNumber="36"/>
+    <functiondecl functionName="push" lineNumber="42"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="isEmpty"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="s"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="top"/>
+    <functioncall functionName="val"/>
+  </FileInfo>
+</analyzerinfo>

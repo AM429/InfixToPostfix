@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="4095230094">
+        <error id="invalidPrintfArgType_sint" severity="portability" msg="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;size_t {aka unsigned long long}&apos;." verbose="%d in format string (no. 1) requires &apos;int&apos; but the argument type is &apos;size_t {aka unsigned long long}&apos;." cwe="686">
+            <location file0="C:\Users\polit\Desktop\stack\tmp\test.c" file="C:\Users\polit\Desktop\stack\tmp\test.c" line="7" column="3"/>
+        </error>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/tmp/test.c:5:6" my-argnr="1" my-argname="str" file="C:/Users/polit/Desktop/stack/tmp/test.c" line="7" col="39" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/tmp/test.c:5:6" my-argnr="1" my-argname="str" file="C:/Users/polit/Desktop/stack/tmp/test.c" line="7" col="39" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="replaceOperator" lineNumber="5"/>
+    <functiondecl functionName="main" lineNumber="16"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="delm"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="postfix"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="replaceOperator"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="strchr"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="strtof"/>
+    <functioncall functionName="strtok"/>
+    <functioncall functionName="token"/>
+    <functioncall functionName="while"/>
+  </FileInfo>
+</analyzerinfo>

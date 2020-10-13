@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="1.90"/>
+    <errors>
+        <error id="bufferAccessOutOfBounds" severity="error" msg="Buffer is accessed out of bounds: num" verbose="Buffer is accessed out of bounds: num" sinceDate="3/15/2020">
+            <location file="tmp\cat.c" line="16"/>
+        </error>
+        <error id="uselessAssignmentArg" severity="style" msg="Assignment of function parameter has no effect outside the function." verbose="Assignment of function parameter has no effect outside the function." sinceDate="3/15/2020">
+            <location file="tmp\main.c" line="69"/>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="union member &amp;#039;Item::fData&amp;#039; is never used." verbose="union member &amp;#039;Item::fData&amp;#039; is never used." sinceDate="3/15/2020">
+            <location file="tmp\main.c" line="12"/>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" sinceDate="3/15/2020">
+            <location file="tmp\main.c" line="103"/>
+        </error>
+        <error id="invalidPrintfArgType_sint" severity="portability" msg="%d in format string (no. 1) requires &amp;#039;int&amp;#039; but the argument type is &amp;#039;size_t {aka unsigned long long}&amp;#039;." verbose="%d in format string (no. 1) requires &amp;#039;int&amp;#039; but the argument type is &amp;#039;size_t {aka unsigned long long}&amp;#039;." sinceDate="3/15/2020">
+            <location file="tmp\test.c" line="7"/>
+        </error>
+    </errors>
+</results>

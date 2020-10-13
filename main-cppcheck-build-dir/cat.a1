@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="783033329">
+        <error id="bufferAccessOutOfBounds" severity="error" msg="Buffer is accessed out of bounds: num" verbose="Buffer is accessed out of bounds: num" cwe="788">
+            <location file0="C:\Users\polit\Desktop\stack\tmp\cat.c" file="C:\Users\polit\Desktop\stack\tmp\cat.c" line="16" column="20" info="Buffer overrun"/>
+        </error>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/tmp/cat.c:1:1" my-argnr="1" my-argname="postfix" file="C:/Users/polit/Desktop/stack/tmp/cat.c" line="10" col="22" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="eval" lineNumber="1"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="cData"/>
+    <functioncall functionName="copyn"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="fData"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="initialize"/>
+    <functioncall functionName="isdigit"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="num"/>
+    <functioncall functionName="pop"/>
+    <functioncall functionName="push"/>
+    <functioncall functionName="replaceOperator"/>
+    <functioncall functionName="res"/>
+    <functioncall functionName="s"/>
+    <functioncall functionName="stack"/>
+    <functioncall functionName="strtof"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="x"/>
+  </FileInfo>
+</analyzerinfo>

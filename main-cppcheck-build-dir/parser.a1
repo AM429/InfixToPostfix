@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1242512410">
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/polit/Desktop/stack/StackTracer.h:5:6" call-funcname="StackDump" call-argnr="2" file="C:/Users/polit/Desktop/stack/parser.c" line="18" col="25" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/Users/polit/Desktop/stack/StackTracer.h:5:6" call-funcname="StackDump" call-argnr="2" file="C:/Users/polit/Desktop/stack/parser.c" line="72" col="28" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/parser.h:4:6" my-argnr="1" my-argname="infix" file="C:/Users/polit/Desktop/stack/parser.c" line="14" col="34" value="0"/>
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/parser.h:5:7" my-argnr="1" my-argname="postfix" file="C:/Users/polit/Desktop/stack/parser.c" line="69" col="39" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/parser.h:4:6" my-argnr="1" my-argname="infix" file="C:/Users/polit/Desktop/stack/parser.c" line="14" col="34" value="0"/>
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/parser.h:5:7" my-argnr="1" my-argname="postfix" file="C:/Users/polit/Desktop/stack/parser.c" line="69" col="39" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="infixToPostfix" lineNumber="12"/>
+    <functiondecl functionName="evaluatePostfix" lineNumber="64"/>
+    <functiondecl functionName="performOperation" lineNumber="94"/>
+    <functioncall functionName="DuplicatePostfix"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="Prec"/>
+    <functioncall functionName="StackDump"/>
+    <functioncall functionName="_strdup"/>
+    <functioncall functionName="a"/>
+    <functioncall functionName="atof"/>
+    <functioncall functionName="b"/>
+    <functioncall functionName="cData"/>
+    <functioncall functionName="ch"/>
+    <functioncall functionName="error"/>
+    <functioncall functionName="fData"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="infix"/>
+    <functioncall functionName="infixDuplicate"/>
+    <functioncall functionName="initialize"/>
+    <functioncall functionName="isEmpty"/>
+    <functioncall functionName="isOperator"/>
+    <functioncall functionName="isalpha"/>
+    <functioncall functionName="isdigit"/>
+    <functioncall functionName="k"/>
+    <functioncall functionName="myitem"/>
+    <functioncall functionName="p"/>
+    <functioncall functionName="performOperation"/>
+    <functioncall functionName="pop"/>
+    <functioncall functionName="postfix"/>
+    <functioncall functionName="pow"/>
+    <functioncall functionName="push"/>
+    <functioncall functionName="res"/>
+    <functioncall functionName="s"/>
+    <functioncall functionName="strcat"/>
+    <functioncall functionName="strncat"/>
+    <functioncall functionName="strtof"/>
+    <functioncall functionName="strtok"/>
+    <functioncall functionName="temp"/>
+    <functioncall functionName="tok"/>
+    <functioncall functionName="top"/>
+    <functioncall functionName="traceOperations"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="x"/>
+  </FileInfo>
+</analyzerinfo>

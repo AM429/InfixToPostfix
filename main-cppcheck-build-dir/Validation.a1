@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2020731600">
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/Validation.h:8:6" my-argnr="1" my-argname="str" file="C:/Users/polit/Desktop/stack/Validation.c" line="33" col="44" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/Validation.h:8:6" my-argnr="1" my-argname="str" file="C:/Users/polit/Desktop/stack/Validation.c" line="33" col="44" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="Prec" lineNumber="7"/>
+    <functiondecl functionName="error" lineNumber="16"/>
+    <functiondecl functionName="replaceNewLineBySpace" lineNumber="21"/>
+    <functiondecl functionName="isOperator" lineNumber="27"/>
+    <functiondecl functionName="replaceOperator" lineNumber="31"/>
+    <functioncall functionName="ch"/>
+    <functioncall functionName="delm"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="s"/>
+    <functioncall functionName="s1"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="strchr"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="strstr"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="while"/>
+  </FileInfo>
+</analyzerinfo>

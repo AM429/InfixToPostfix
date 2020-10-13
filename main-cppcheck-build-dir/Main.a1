@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="4000866676">
+        <error id="uselessAssignmentArg" severity="style" msg="Assignment of function parameter has no effect outside the function." verbose="Assignment of function parameter has no effect outside the function." cwe="398">
+            <location file0="C:\Users\polit\Desktop\stack\tmp\main.c" file="C:\Users\polit\Desktop\stack\tmp\main.c" line="69" column="9"/>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="union member &apos;Item::fData&apos; is never used." verbose="union member &apos;Item::fData&apos; is never used." cwe="563">
+            <location file0="C:\Users\polit\Desktop\stack\tmp\main.c" file="C:\Users\polit\Desktop\stack\tmp\main.c" line="12" column="11"/>
+            <symbol>Item::fData</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563">
+            <location file0="C:\Users\polit\Desktop\stack\tmp\main.c" file="C:\Users\polit\Desktop\stack\tmp\main.c" line="103" column="17"/>
+            <symbol>x</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/polit/Desktop/stack/tmp/main.c:35:5" call-funcname="isEmpty" call-argnr="1" file="C:/Users/polit/Desktop/stack/tmp/main.c" line="47" col="10" my-id="C:/Users/polit/Desktop/stack/tmp/main.c:45:6" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/tmp/main.c:35:5" my-argnr="1" my-argname="s" file="C:/Users/polit/Desktop/stack/tmp/main.c" line="37" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/tmp/main.c:56:6" my-argnr="1" my-argname="s" file="C:/Users/polit/Desktop/stack/tmp/main.c" line="57" col="8" value="0"/>
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/tmp/main.c:66:6" my-argnr="1" my-argname="s" file="C:/Users/polit/Desktop/stack/tmp/main.c" line="68" col="9" value="0"/>
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/tmp/main.c:101:6" my-argnr="1" my-argname="infix" file="C:/Users/polit/Desktop/stack/tmp/main.c" line="108" col="19" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/tmp/main.c:101:6" my-argnr="1" my-argname="infix" file="C:/Users/polit/Desktop/stack/tmp/main.c" line="108" col="19" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="initialize" lineNumber="26"/>
+    <functiondecl functionName="isEmpty" lineNumber="35"/>
+    <functiondecl functionName="top" lineNumber="45"/>
+    <functiondecl functionName="pop" lineNumber="56"/>
+    <functiondecl functionName="push" lineNumber="66"/>
+    <functiondecl functionName="Prec" lineNumber="84"/>
+    <functiondecl functionName="infixToPostfix" lineNumber="101"/>
+    <functiondecl functionName="main" lineNumber="158"/>
+    <functioncall functionName="EXIT_FAILURE"/>
+    <functioncall functionName="Prec"/>
+    <functioncall functionName="cData"/>
+    <functioncall functionName="ch"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="infix"/>
+    <functioncall functionName="infixExpr"/>
+    <functioncall functionName="infixToPostfix"/>
+    <functioncall functionName="initialize"/>
+    <functioncall functionName="isEmpty"/>
+    <functioncall functionName="isalpha"/>
+    <functioncall functionName="isdigit"/>
+    <functioncall functionName="j"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="myitem"/>
+    <functioncall functionName="pop"/>
+    <functioncall functionName="postfixExpr"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="push"/>
+    <functioncall functionName="s"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="strcat"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="top"/>
+    <functioncall functionName="while"/>
+  </FileInfo>
+</analyzerinfo>

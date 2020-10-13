@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="4269499604">
+        <error id="invalidPrintfArgType_uint" severity="warning" msg="%c in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;union&apos;." verbose="%c in format string (no. 1) requires &apos;unsigned int&apos; but the argument type is &apos;union&apos;." cwe="686">
+            <location file0="C:\Users\polit\Desktop\stack\nada\nada.c" file="C:\Users\polit\Desktop\stack\nada\nada.c" line="84" column="30"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Users/polit/Desktop/stack/nada/nada.c:242:6" call-funcname="replaceNewLineBySpace" call-argnr="1" file="C:/Users/polit/Desktop/stack/nada/nada.c" line="258" col="30" call-argexpr="infixExpr" call-argvaluetype="7" call-argvalue="256"/><function-call call-id="C:/Users/polit/Desktop/stack/nada/nada.c:116:6" call-funcname="infixToPostfix" call-argnr="1" file="C:/Users/polit/Desktop/stack/nada/nada.c" line="259" col="23" call-argexpr="infixExpr" call-argvaluetype="7" call-argvalue="256"/><function-call call-id="C:/Users/polit/Desktop/stack/nada/nada.c:116:6" call-funcname="infixToPostfix" call-argnr="2" file="C:/Users/polit/Desktop/stack/nada/nada.c" line="259" col="23" call-argexpr="postfixExpr" call-argvaluetype="7" call-argvalue="256"/><function-call call-id="C:/Users/polit/Desktop/stack/nada/nada.c:217:7" call-funcname="evaluatePostfix" call-argnr="1" file="C:/Users/polit/Desktop/stack/nada/nada.c" line="261" col="39" call-argexpr="postfixExpr" call-argvaluetype="7" call-argvalue="256"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/nada/nada.c:37:5" my-argnr="1" my-argname="s" file="C:/Users/polit/Desktop/stack/nada/nada.c" line="39" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/nada/nada.c:44:6" my-argnr="1" my-argname="s" file="C:/Users/polit/Desktop/stack/nada/nada.c" line="46" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/nada/nada.c:51:6" my-argnr="1" my-argname="s" file="C:/Users/polit/Desktop/stack/nada/nada.c" line="53" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/nada/nada.c:59:6" my-argnr="1" my-argname="s" file="C:/Users/polit/Desktop/stack/nada/nada.c" line="61" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/nada/nada.c:75:6" my-argnr="1" my-argname="s" file="C:/Users/polit/Desktop/stack/nada/nada.c" line="77" col="10" value="0"/>
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/nada/nada.c:80:6" my-argnr="1" my-argname="s" file="C:/Users/polit/Desktop/stack/nada/nada.c" line="84" col="17" value="0"/>
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/nada/nada.c:217:7" my-argnr="1" my-argname="exp" file="C:/Users/polit/Desktop/stack/nada/nada.c" line="223" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/nada/nada.c:37:5" my-argnr="1" my-argname="s" file="C:/Users/polit/Desktop/stack/nada/nada.c" line="39" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/nada/nada.c:44:6" my-argnr="1" my-argname="s" file="C:/Users/polit/Desktop/stack/nada/nada.c" line="46" col="12" value="0"/>
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/nada/nada.c:51:6" my-argnr="1" my-argname="s" file="C:/Users/polit/Desktop/stack/nada/nada.c" line="53" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/nada/nada.c:116:6" my-argnr="1" my-argname="inf" file="C:/Users/polit/Desktop/stack/nada/nada.c" line="123" col="22" value="0"/>
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/nada/nada.c:217:7" my-argnr="1" my-argname="exp" file="C:/Users/polit/Desktop/stack/nada/nada.c" line="223" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="initialize" lineNumber="27"/>
+    <functiondecl functionName="isEmpty" lineNumber="37"/>
+    <functiondecl functionName="top" lineNumber="44"/>
+    <functiondecl functionName="pop" lineNumber="51"/>
+    <functiondecl functionName="push" lineNumber="59"/>
+    <functiondecl functionName="destStack" lineNumber="75"/>
+    <functiondecl functionName="dispStack" lineNumber="80"/>
+    <functiondecl functionName="prec" lineNumber="87"/>
+    <functiondecl functionName="lessPrec" lineNumber="106"/>
+    <functiondecl functionName="err" lineNumber="111"/>
+    <functiondecl functionName="infixToPostfix" lineNumber="116"/>
+    <functiondecl functionName="evaluate" lineNumber="182"/>
+    <functiondecl functionName="evaluatePostfix" lineNumber="217"/>
+    <functiondecl functionName="replaceNewLineBySpace" lineNumber="242"/>
+    <functiondecl functionName="main" lineNumber="251"/>
+    <functioncall functionName="VERBOSE"/>
+    <functioncall functionName="c"/>
+    <functioncall functionName="cData"/>
+    <functioncall functionName="ch1"/>
+    <functioncall functionName="ch2"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="digit"/>
+    <functioncall functionName="dispStack"/>
+    <functioncall functionName="err"/>
+    <functioncall functionName="evaluate"/>
+    <functioncall functionName="evaluatePostfix"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="exp"/>
+    <functioncall functionName="fData"/>
+    <functioncall functionName="fgets"/>
+    <functioncall functionName="fmod"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="inf"/>
+    <functioncall functionName="infixExpr"/>
+    <functioncall functionName="infixToPostfix"/>
+    <functioncall functionName="initialize"/>
+    <functioncall functionName="isEmpty"/>
+    <functioncall functionName="isdigit"/>
+    <functioncall functionName="items"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="op1"/>
+    <functioncall functionName="op2"/>
+    <functioncall functionName="pop"/>
+    <functioncall functionName="post"/>
+    <functioncall functionName="postfixExpr"/>
+    <functioncall functionName="prec"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="push"/>
+    <functioncall functionName="replaceNewLineBySpace"/>
+    <functioncall functionName="result"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="s"/>
+    <functioncall functionName="s1"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="stdin"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="strstr"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="top"/>
+    <functioncall functionName="val"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="x"/>
+  </FileInfo>
+</analyzerinfo>

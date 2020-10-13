@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="4226192983">
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Users/polit/Desktop/stack/StackTracer.c:22:6" my-argnr="1" my-argname="s" file="C:/Users/polit/Desktop/stack/StackTracer.c" line="24" col="20" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="printByte" lineNumber="4"/>
+    <functiondecl functionName="printBytesBigEndian" lineNumber="10"/>
+    <functiondecl functionName="traceOperations" lineNumber="18"/>
+    <functiondecl functionName="StackDump" lineNumber="22"/>
+    <functioncall functionName="a"/>
+    <functioncall functionName="b"/>
+    <functioncall functionName="cData"/>
+    <functioncall functionName="fData"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="iter"/>
+    <functioncall functionName="n"/>
+    <functioncall functionName="op"/>
+    <functioncall functionName="printByte"/>
+    <functioncall functionName="printBytesBigEndian"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="top"/>
+    <functioncall functionName="while"/>
+  </FileInfo>
+</analyzerinfo>
